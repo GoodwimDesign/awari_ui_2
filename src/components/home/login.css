@@ -1,0 +1,13 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-tagline {  
+    color: #FFFFFF;
+    font-family: AvenirNext-UltraLight;
+    background: #112643;
+    padding:0 10px;
+}
