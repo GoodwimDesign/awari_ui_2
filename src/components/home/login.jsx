@@ -1,7 +1,7 @@
 import React from 'react';
 import AwariMainLogo from '../shared/awariMainLogo';
 
-import './login.css';
+import './login.scss';
 
 
 const buttonMessage = 'LOG IN';
@@ -10,7 +10,9 @@ const rememberMeMessage = 'Remember Me';
 
 const Login = () => (
   <div className="login-content">
-    <AwariMainLogo />
+    <div className="login-logo">
+      <AwariMainLogo />
+    </div>
     <div className="login-tagline">
       <h2>{taglineMessage}</h2>
     </div>

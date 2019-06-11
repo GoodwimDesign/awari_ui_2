@@ -1,7 +1,7 @@
 import React from 'react';
 import mainLogo from '../../images/logos/AwariMainLogoTypeColor.png';
 
-import './awariMainLogo.css';
+import './awariMainLogo.scss';
 
 const AwariMainLogo = () => (
   <>

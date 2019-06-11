@@ -1,0 +1,21 @@
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    & .login-logo {
+        flex: 1;        
+    }
+    & .login-tagline {  
+        flex: 1;
+        color: #FFFFFF;
+        font-family: AvenirNext-UltraLight;
+        background: #112643;
+        padding:0 10px;
+    }
+
+    & .login-form {
+        flex-wrap: wrap;
+    }
+}
