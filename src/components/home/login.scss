@@ -1,21 +1,29 @@
 .login-content {
     display: flex;
+    padding-top: 100px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    & .login-logo {
-        flex: 1;        
-    }
-    & .login-tagline {  
-        flex: 1;
-        color: #FFFFFF;
-        font-family: AvenirNext-UltraLight;
-        background: #112643;
-        padding:0 10px;
+    align-items: center;    
+
+    & .login-border {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
-    & .login-form {
-        flex-wrap: wrap;
+    & .login-stuff {
+        margin-top: auto;
+        margin-bottom: auto;
+
+        & .login-logo {
+            flex: 1;
+        }
+        & .login-tagline {
+            h2 {
+                color: #FFFFFF;
+                font-family: AvenirNext-UltraLight;        
+                padding:0 10px;
+                text-transform: uppercase;
+            }
+        }        
     }
 }

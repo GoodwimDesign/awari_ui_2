@@ -1,11 +1,9 @@
 import React from 'react';
-import mainLogo from '../../images/logos/AwariMainLogoTypeColor.png';
-
-import './awariMainLogo.scss';
+import mainLogo from '../../images/logos/AwariMainLogoTypeColor_60percent.png';
 
 const AwariMainLogo = () => (
   <>
-    <img className="awari-main-logo" src={mainLogo} alt="Awari" />
+    <img src={mainLogo} alt="Awari" />
   </>
 );
 
