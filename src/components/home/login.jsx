@@ -1,11 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import AwariMainLogo from '../shared/awariMainLogo';
-import LoginForm from './loginForm';
-
-import './login.scss';
 import AppConfig from '../../appConfig';
 
-const Login = () => (
+import './login.scss';
+
+const handleAuth = (auth, authenticated) => (authenticated ? auth.logout() : auth.login());
+
+
+const formatButtonText = authenticated => (
+  authenticated ? AppConfig.labels.login.logoutText : AppConfig.labels.login.loginText
+);
+
+const Login = ({ auth, authenticated }) => (
   <div className="login-content">
     <div className="login-border" />
     <div className="login-stuff">
@@ -15,10 +22,32 @@ const Login = () => (
       <div className="login-tagline">
         <h2>{AppConfig.labels.login.tagline}</h2>
       </div>
-      <LoginForm />
+      <div className="submit-button">
+        { authenticated !== null && (
+          <button
+            type="submit"
+            className="button"
+            onClick={() => handleAuth(auth, authenticated)}
+          >
+            {formatButtonText(authenticated)}
+          </button>
+        )}
+      </div>
     </div>
     <div className="login-border" />
   </div>
 );
+
+Login.defaultProps = {
+  authenticated: false,
+};
+
+Login.propTypes = {
+  auth: PropTypes.shape({
+    login: PropTypes.func,
+    logout: PropTypes.func,
+  }).isRequired,
+  authenticated: PropTypes.bool,
+};
 
 export default Login;
