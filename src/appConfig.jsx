@@ -3,7 +3,8 @@ const AppConfig = {
     login: {
       tagline: 'Discover Within',
       rememberMeLabel: 'Remember Me',
-      submitButton: 'Log In',
+      loginText: 'Log In',
+      logoutText: 'Log Out',
     },
   },
 };
