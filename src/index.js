@@ -13,7 +13,7 @@ ReactDOM.render(
     <Security
       issuer={`${process.env.REACT_APP_OKTA_ORG_URL}/oauth2/default`}
       client_id={process.env.REACT_APP_OKTA_CLIENT_ID}
-      redirect_uri={`${window.location.origin}/implicit/callback`}
+      redirect_uri={`${window.location.origin}/dashboard`}
     >
       <Route path="/" exact component={App} />
       <Route path="/implicit/callback" component={ImplicitCallback} />
