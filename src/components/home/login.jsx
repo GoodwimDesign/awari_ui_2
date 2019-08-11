@@ -40,13 +40,17 @@ const Login = ({ auth, authenticated }) => (
 
 Login.defaultProps = {
   authenticated: false,
+  auth: {
+    login: () => {},
+    logout: () => {},
+  },
 };
 
 Login.propTypes = {
   auth: PropTypes.shape({
     login: PropTypes.func,
     logout: PropTypes.func,
-  }).isRequired,
+  }),
   authenticated: PropTypes.bool,
 };
 
