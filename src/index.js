@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Security, ImplicitCallback } from '@okta/okta-react';
 import App from './App';
+import Dashboard from './components/dashboard/dashboard';
 import * as serviceWorker from './serviceWorker';
 
 import './index.css';
@@ -16,6 +17,7 @@ ReactDOM.render(
     >
       <Route path="/" exact component={App} />
       <Route path="/implicit/callback" component={ImplicitCallback} />
+      <Route path="/dashboard" component={Dashboard} />
     </Security>
   </Router>,
   document.getElementById('root'),
