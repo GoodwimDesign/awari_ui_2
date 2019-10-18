@@ -1,10 +1,19 @@
 .left-pane-container {
     display: flex; 
+    flex-direction: column;
     justify-content: center;
     margin-top: 3em;
 
     & .logo {
         flex: 0 0 auto;
+        align-self: center;
+    }
+
+    & .links-container {
+        align-self: center;
         
+        display: flex;
+        flex-direction: column;        
+        margin-top: 3em;
     }
 }
