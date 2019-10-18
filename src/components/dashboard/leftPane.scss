@@ -11,9 +11,13 @@
 
     & .links-container {
         align-self: center;
-        
+
         display: flex;
         flex-direction: column;        
         margin-top: 3em;
+
+        & .link-item {
+            margin-bottom: 2em;
+        }
     }
 }

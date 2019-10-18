@@ -7,11 +7,11 @@ const LeftPane = () => (
   <div className="left-pane-container">
     <img className="logo" src={LogoThirtyPercent} alt="Awari Logo" />
     <div className="links-container">
-      <span>Dashboard</span>
-      <span>Messages</span>
-      <span>Feedback</span>
-      <span>Goals</span>
-      <span>Team</span>
+      <span className="link-item">Dashboard</span>
+      <span className="link-item">Messages</span>
+      <span className="link-item">Feedback</span>
+      <span className="link-item">Goals</span>
+      <span className="link-item">Team</span>
     </div>
   </div>
 );
