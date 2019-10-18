@@ -1,7 +1,7 @@
 import React from 'react';
+import LeftPane from './leftPane';
 
 import './dashboard.scss';
-import LeftPane from './leftPane';
 
 const Dashboard = () => (
   <div className="dashboard-container">
