@@ -1,0 +1,16 @@
+.middle-pane-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+
+    & h1 {        
+        background: -webkit-linear-gradient(#5bc2d0, #9b91d4);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
