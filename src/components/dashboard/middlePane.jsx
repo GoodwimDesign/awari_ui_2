@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './middlePane.scss';
-import DashboardData from './dashboardData';
+import DashboardDataList from './dashboardDataList';
 
 const MiddlePane = () => (
   <div className="middle-pane-container">
     <h1>Dashboard</h1>
     <div>
-      <DashboardData />
+      <DashboardDataList />
     </div>
   </div>
 );

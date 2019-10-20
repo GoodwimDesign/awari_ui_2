@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import MiddlePane from './middlePane';
-import DashboardData from './dashboardData';
+import DashboardDataList from './dashboardDataList';
 
 describe('middlePane', () => {
   let testObject;
@@ -16,6 +16,6 @@ describe('middlePane', () => {
   });
 
   it('contains a dashboard data component', () => {
-    expect(testObject.find(DashboardData).length).toEqual(1);
+    expect(testObject.find(DashboardDataList).length).toEqual(1);
   });
 });
