@@ -1,0 +1,11 @@
+.right-pane-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .user-widget {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;               
+    }
+}
