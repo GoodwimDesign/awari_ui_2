@@ -1,14 +1,14 @@
 {
-  "main.css": "/awari/static/css/main.8424203c.chunk.css",
-  "main.js": "/awari/static/js/main.324e5210.chunk.js",
-  "main.js.map": "/awari/static/js/main.324e5210.chunk.js.map",
-  "runtime~main.js": "/awari/static/js/runtime~main.f7b81156.js",
-  "runtime~main.js.map": "/awari/static/js/runtime~main.f7b81156.js.map",
-  "static/js/2.da01ddf0.chunk.js": "/awari/static/js/2.da01ddf0.chunk.js",
-  "static/js/2.da01ddf0.chunk.js.map": "/awari/static/js/2.da01ddf0.chunk.js.map",
-  "index.html": "/awari/index.html",
-  "precache-manifest.0bf0f997d91f30ce83ae39139e33237f.js": "/awari/precache-manifest.0bf0f997d91f30ce83ae39139e33237f.js",
-  "service-worker.js": "/awari/service-worker.js",
-  "static/css/main.8424203c.chunk.css.map": "/awari/static/css/main.8424203c.chunk.css.map",
-  "static/media/AwariMainLogoTypeColor_60percent.png": "/awari/static/media/AwariMainLogoTypeColor_60percent.6486bda8.png"
+  "main.css": "/awari_ui_2/static/css/main.8424203c.chunk.css",
+  "main.js": "/awari_ui_2/static/js/main.666c8dad.chunk.js",
+  "main.js.map": "/awari_ui_2/static/js/main.666c8dad.chunk.js.map",
+  "runtime~main.js": "/awari_ui_2/static/js/runtime~main.5843f0cb.js",
+  "runtime~main.js.map": "/awari_ui_2/static/js/runtime~main.5843f0cb.js.map",
+  "static/js/2.d6e89f3e.chunk.js": "/awari_ui_2/static/js/2.d6e89f3e.chunk.js",
+  "static/js/2.d6e89f3e.chunk.js.map": "/awari_ui_2/static/js/2.d6e89f3e.chunk.js.map",
+  "index.html": "/awari_ui_2/index.html",
+  "precache-manifest.d926511430ccaae8d01f6d3bcbe209f4.js": "/awari_ui_2/precache-manifest.d926511430ccaae8d01f6d3bcbe209f4.js",
+  "service-worker.js": "/awari_ui_2/service-worker.js",
+  "static/css/main.8424203c.chunk.css.map": "/awari_ui_2/static/css/main.8424203c.chunk.css.map",
+  "static/media/AwariMainLogoTypeColor_60percent.png": "/awari_ui_2/static/media/AwariMainLogoTypeColor_60percent.6486bda8.png"
 }
